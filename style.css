@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+}
+.container{
+        height: 450px;
+        width: 600px;
+        display: flex ;
+        flex-direction: row;
+        justify-content: center;
+
+
+}
+
+
+ 
+.left img{
+        width: 300px;
+        height: 450px;
+        object-fit: contain;
+        border-radius: 10px 0px 0px 10px;
+
+ } 
+
+.right{
+    width: 300px;
+    text-align: left;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+
+
+}
+
+.right p, h1, h2{
+    margin: 40px 40px;
+} 
+
+.item p, h2{
+    display: inline-block;
+}
+.price{
+    text-align: left;
+}
+.discount{
+    text-align: right;
+    width: 20%;
+}
+ 
